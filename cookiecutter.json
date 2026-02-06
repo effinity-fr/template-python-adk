@@ -1,0 +1,9 @@
+{
+    "project_name": "Mon Agent IA",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "ai_model": [
+        "gemini-2.0-flash",
+        "gemini-2.5-flash"
+    ],
+    "description": "Un agent IA basé sur ADK"
+}
