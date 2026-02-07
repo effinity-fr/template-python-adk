@@ -12,6 +12,16 @@ Merci de contribuer à l'amélioration de la structure de nos Agents IA ! Ce tem
 
 ---
 
+## 🏗️ Structure du Template
+
+* `{{cookiecutter.project_slug}}/` : Contient le code source qui sera généré.
+* `hooks/post_gen_project.py` : Script Python exécuté immédiatement après la génération (installation `uv`, configuration venv).
+* `cookiecutter.json` : Définition des variables de saisie.
+
 ## 🧪 Comment tester vos modifications ?
 
 Avant de soumettre une modification, vous devez vérifier que le template génère toujours un projet fonctionnel.
+
+1. **Générer un projet de test :**
+   ```bash
+   uv tool run cookiecutter . --no-input
