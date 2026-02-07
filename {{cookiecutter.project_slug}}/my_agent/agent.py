@@ -20,7 +20,7 @@ def greet_user(name: str = "User") -> Dict[str, str]:
 
 
 root_agent = Agent(
-    model='gemini-2.0-flash',
+    model="{{ cookiebutter.ai_model }}",
     name="{{ cookiecutter.project_slug }}",
     description="{{ cookiecutter.description }}",
     instruction="""
