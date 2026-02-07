@@ -4,7 +4,7 @@ Ce template permet de générer instantanément un projet Python standardisé po
 
 ## 🚀 Utilisation rapide
 
-Si vous avez déjà configuré votre environnement avec notre [dev-toolkit](https://www.google.com/search?q=https://github.com/effinity-fr/dev-toolkit), lancez simplement :
+Si vous avez déjà configuré votre environnement avec notre [dev-toolkit](https://github.com/effinity-fr/dev-toolkit), lancez simplement :
 
 ```bash
 uv tool run cookiecutter https://github.com/effinity-fr/cookiecutter-python-adk
